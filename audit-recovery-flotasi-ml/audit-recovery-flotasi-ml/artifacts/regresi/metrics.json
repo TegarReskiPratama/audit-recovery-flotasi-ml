@@ -1,0 +1,182 @@
+{
+  "sumber": "manuelantoniocherres/gold-recovery-full",
+  "target": "rougher.output.recovery",
+  "fitur": [
+    "rougher.input.feed_ag",
+    "rougher.input.feed_pb",
+    "rougher.input.feed_rate",
+    "rougher.input.feed_size",
+    "rougher.input.feed_sol",
+    "rougher.input.feed_au",
+    "rougher.input.floatbank10_sulfate",
+    "rougher.input.floatbank10_xanthate",
+    "rougher.input.floatbank11_sulfate",
+    "rougher.input.floatbank11_xanthate",
+    "rougher.state.floatbank10_a_air",
+    "rougher.state.floatbank10_a_level",
+    "rougher.state.floatbank10_b_air",
+    "rougher.state.floatbank10_b_level",
+    "rougher.state.floatbank10_c_air",
+    "rougher.state.floatbank10_c_level",
+    "rougher.state.floatbank10_d_air",
+    "rougher.state.floatbank10_d_level",
+    "rougher.state.floatbank10_e_air",
+    "rougher.state.floatbank10_e_level",
+    "rougher.state.floatbank10_f_air",
+    "rougher.state.floatbank10_f_level"
+  ],
+  "desain": "sensor dan input rougher pada timestamp yang sama; rilis lab belum diketahui",
+  "split": {
+    "train": {
+      "awal": "2016-01-15 00:00:00",
+      "akhir": "2017-08-04 19:59:00",
+      "baris": 13629,
+      "label_ada": 11860,
+      "label_hilang": 1769,
+      "label_nol": 263,
+      "jarak_lebih_1_jam": 0,
+      "fitur_hilang_persen": {
+        "rougher.input.feed_ag": 0.57,
+        "rougher.input.feed_pb": 0.85,
+        "rougher.input.feed_rate": 1.11,
+        "rougher.input.feed_size": 3.06,
+        "rougher.input.feed_sol": 1.69,
+        "rougher.input.feed_au": 0.58,
+        "rougher.input.floatbank10_sulfate": 4.61,
+        "rougher.input.floatbank10_xanthate": 1.92,
+        "rougher.input.floatbank11_sulfate": 1.23,
+        "rougher.input.floatbank11_xanthate": 10.46,
+        "rougher.state.floatbank10_a_air": 0.27,
+        "rougher.state.floatbank10_a_level": 0.26,
+        "rougher.state.floatbank10_b_air": 0.27,
+        "rougher.state.floatbank10_b_level": 0.26,
+        "rougher.state.floatbank10_c_air": 0.27,
+        "rougher.state.floatbank10_c_level": 0.21,
+        "rougher.state.floatbank10_d_air": 0.3,
+        "rougher.state.floatbank10_d_level": 0.24,
+        "rougher.state.floatbank10_e_air": 0.3,
+        "rougher.state.floatbank10_e_level": 0.24,
+        "rougher.state.floatbank10_f_air": 0.3,
+        "rougher.state.floatbank10_f_level": 0.29
+      }
+    },
+    "validasi": {
+      "awal": "2017-08-04 20:59:00",
+      "akhir": "2018-02-10 02:59:00",
+      "baris": 4543,
+      "label_ada": 3823,
+      "label_hilang": 720,
+      "label_nol": 132,
+      "jarak_lebih_1_jam": 0,
+      "fitur_hilang_persen": {
+        "rougher.input.feed_ag": 0.02,
+        "rougher.input.feed_pb": 0.02,
+        "rougher.input.feed_rate": 3.57,
+        "rougher.input.feed_size": 0.18,
+        "rougher.input.feed_sol": 1.17,
+        "rougher.input.feed_au": 0.02,
+        "rougher.input.floatbank10_sulfate": 7.22,
+        "rougher.input.floatbank10_xanthate": 2.36,
+        "rougher.input.floatbank11_sulfate": 3.48,
+        "rougher.input.floatbank11_xanthate": 10.26,
+        "rougher.state.floatbank10_a_air": 0.09,
+        "rougher.state.floatbank10_a_level": 0.09,
+        "rougher.state.floatbank10_b_air": 0.09,
+        "rougher.state.floatbank10_b_level": 0.09,
+        "rougher.state.floatbank10_c_air": 0.09,
+        "rougher.state.floatbank10_c_level": 0.09,
+        "rougher.state.floatbank10_d_air": 0.09,
+        "rougher.state.floatbank10_d_level": 0.09,
+        "rougher.state.floatbank10_e_air": 5.99,
+        "rougher.state.floatbank10_e_level": 0.09,
+        "rougher.state.floatbank10_f_air": 0.09,
+        "rougher.state.floatbank10_f_level": 0.09
+      }
+    },
+    "test": {
+      "awal": "2018-02-10 03:59:00",
+      "akhir": "2018-08-18 10:59:00",
+      "baris": 4544,
+      "label_ada": 3914,
+      "label_hilang": 630,
+      "label_nol": 24,
+      "jarak_lebih_1_jam": 0,
+      "fitur_hilang_persen": {
+        "rougher.input.feed_ag": 0.42,
+        "rougher.input.feed_pb": 2.79,
+        "rougher.input.feed_rate": 5.28,
+        "rougher.input.feed_size": 0.31,
+        "rougher.input.feed_sol": 1.65,
+        "rougher.input.feed_au": 0.42,
+        "rougher.input.floatbank10_sulfate": 7.59,
+        "rougher.input.floatbank10_xanthate": 2.22,
+        "rougher.input.floatbank11_sulfate": 7.77,
+        "rougher.input.floatbank11_xanthate": 8.05,
+        "rougher.state.floatbank10_a_air": 0.64,
+        "rougher.state.floatbank10_a_level": 0.64,
+        "rougher.state.floatbank10_b_air": 0.64,
+        "rougher.state.floatbank10_b_level": 0.64,
+        "rougher.state.floatbank10_c_air": 0.64,
+        "rougher.state.floatbank10_c_level": 0.64,
+        "rougher.state.floatbank10_d_air": 0.66,
+        "rougher.state.floatbank10_d_level": 0.66,
+        "rougher.state.floatbank10_e_air": 6.76,
+        "rougher.state.floatbank10_e_level": 0.66,
+        "rougher.state.floatbank10_f_air": 0.66,
+        "rougher.state.floatbank10_f_level": 0.66
+      }
+    }
+  },
+  "model_terpilih_dari_validasi": "ridge",
+  "median_target_train": 83.65091749999999,
+  "validasi": {
+    "median_train": {
+      "mae": 8.29736497393278,
+      "rmse": 17.033914306380666,
+      "r2": -0.003671183674844425,
+      "p90_galat_absolut": 10.528717216000004
+    },
+    "ridge": {
+      "mae": 9.619184560561377,
+      "rmse": 17.769651910623853,
+      "r2": -0.09224579189618343,
+      "p90_galat_absolut": 14.073478569557642
+    },
+    "hist_gradient_boosting": {
+      "mae": 9.790246120240507,
+      "rmse": 18.697303278155513,
+      "r2": -0.20926221850221527,
+      "p90_galat_absolut": 17.698958815407977
+    }
+  },
+  "test": {
+    "median_train": {
+      "mae": 8.308458546710789,
+      "rmse": 11.426543449098869,
+      "r2": -0.28248293045054407,
+      "p90_galat_absolut": 12.280976616000004
+    },
+    "ridge": {
+      "mae": 9.615507381680928,
+      "rmse": 12.745584464409031,
+      "r2": -0.59566365646995,
+      "p90_galat_absolut": 17.826786882201702
+    },
+    "hist_gradient_boosting": {
+      "mae": 11.85236496582511,
+      "rmse": 15.330084793870283,
+      "r2": -1.3083994215225263,
+      "p90_galat_absolut": 20.588473116733137
+    }
+  },
+  "interval_residual_val_90": {
+    "radius_poin_persentase": 14.073478569557642,
+    "cakupan_empiris_test": 0.7874297393970363,
+    "catatan": "Bukan jaminan cakupan masa depan atau interval tersertifikasi di bawah drift temporal."
+  },
+  "ci95_selisih_mae_model_minus_median_test_blok_24": [
+    0.5830720214644622,
+    2.1497455247978863
+  ],
+  "mengalahkan_median_test": false
+}
